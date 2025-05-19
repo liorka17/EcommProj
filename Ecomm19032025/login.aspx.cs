@@ -70,7 +70,7 @@ namespace Ecomm19032025
                     //ניצור משתנה מסוג שסן ונשמור בתוכו את האובייקט של המשתמש
                     //נעביר את המשתמש אל עמוד הבית
                     Session["login"] = LstUsers[i];
-                    Response.Redirect("/AdminManage");
+                    Response.Redirect("/AdminManage/ProductList.aspx");
                 }
             }
             LtlMsg.Text = "שם משתמש או סיסמא לא נכונים";
